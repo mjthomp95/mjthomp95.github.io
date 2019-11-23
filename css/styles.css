@@ -120,7 +120,7 @@ section .layer1hover:hover {
     border-radius: 5%; /* TODO: add to animation */
     height: 100%;
     width: 100%;
-    background: url("me.jpg");
+    background: url("../img/me.jpg");
     background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -221,7 +221,7 @@ section .layer2 {
 
 .section1 {
     left: 0;
-    background-image: url("me_half1.jpg");
+    background-image: url("../img/me_half1.jpg");
     background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: right center;
@@ -239,7 +239,7 @@ section .layer2 {
 
 .section2 {
     left: 50%;
-    background-image: url("me_half2.jpg");
+    background-image: url("../img/me_half2.jpg");
     background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: left center;
