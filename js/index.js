@@ -1,4 +1,10 @@
 function card() {
+    if (window.matchMedia("(max-width: 720px)").matches) {
+        var card = document.getElementById('card');
+        card.classList.remove("layer1hover");
+        card.onclick = null;
+        return;
+    }
     var background = document.getElementById('card-background');
 
     var card = document.getElementById('card');
